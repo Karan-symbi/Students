@@ -21,6 +21,9 @@ class Main{
         System.out.println("Enter Branch :  ");
         String branch = scan.nextLine();
 
+        Student student = new Student(name,prn,gpa,batch,branch);
+        operations.addStudents(student);
+
         System.out.println("Do you want to Continue(Yes/No) :  ");
         choice = scan.nextLine();
         }while(!choice.equalsIgnoreCase("No"));
@@ -39,4 +42,11 @@ class Main{
         System.out.println("Enter Branch :  ");
         String branch = scan.nextLine();
 
+        Student student = new Student(name,prn,gpa,batch,branch);
+        operations.addStudents(student);
+        
+        operations.displayStudents();
+        operations.removeStudent(student);
+        operations.displayStudents();
+    }
 }
