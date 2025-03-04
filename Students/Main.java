@@ -27,6 +27,7 @@ class Main{
         System.out.println("Do you want to Continue(Yes/No) :  ");
         choice = scan.nextLine();
         }while(!choice.equalsIgnoreCase("No"));
+
         System.out.println("Enter Name :  ");
         String name = scan.nextLine();
 
