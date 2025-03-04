@@ -19,21 +19,39 @@ class Student{
         return name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
     public long getPrn(){
         return prn;
     }
 
+    public void setPrn(long prn){
+        this.prn = prn;
+    }
 
     public double getGpa(){
         return gpa;
+    }
+
+    public void setGpa(double gpa){
+        this.gpa = gpa;
     }
 
     public String getBatch(){
         return batch;
     }
 
+    public void setBatch(String batch){
+        this.batch = batch;
+    }
+
     public String getBranch(){
         return branch;
     }
 
+    public void setBranch(String branch){
+        this.branch = branch;
+    }
 }
