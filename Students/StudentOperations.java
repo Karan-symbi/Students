@@ -11,4 +11,5 @@ class StudentOperations{
 		students.add(student);
 		System.out.println("Student added.");
 	}
+	public void displayStudents(){
 }
