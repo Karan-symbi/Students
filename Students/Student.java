@@ -14,4 +14,26 @@ class Student{
         this.branch = branch;
         this.batch = batch;
     }
+
+    public String getName(){
+        return name;
+    }
+
+    public long getPrn(){
+        return prn;
+    }
+
+
+    public double getGpa(){
+        return gpa;
+    }
+
+    public String getBatch(){
+        return batch;
+    }
+
+    public String getBranch(){
+        return branch;
+    }
+
 }
